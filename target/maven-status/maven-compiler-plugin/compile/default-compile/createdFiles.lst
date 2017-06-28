@@ -1,0 +1,5 @@
+com/telek/service/IBaseService.class
+com/telek/dao/IBaseDao.class
+com/telek/service/BaseServiceImpl.class
+com/telek/model/BaseEntity.class
+com/telek/dao/BaseDaoImpl.class

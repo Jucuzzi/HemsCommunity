@@ -1,0 +1,204 @@
+[INFO][2017-06-28 13:08:32,012][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2017-06-28 13:08:38,925][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:08:38,962][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:08:39,073][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:08:39,087][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:08:39,088][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:08:39,090][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:08:39,464][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:08:39,530][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2017-06-28 13:09:43,719][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:09:43,753][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:09:43,852][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:09:43,856][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:09:43,857][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:09:43,858][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:09:44,207][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:09:44,279][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2017-06-28 13:11:05,585][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:11:05,614][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:11:05,705][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:11:05,709][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:11:05,711][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:11:05,712][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:11:06,054][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:11:06,130][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-06-28 13:11:06,133][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2017-06-28 13:11:06,243][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-06-28 13:11:06,243][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-06-28 13:11:06,246][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-06-28 13:11:06,254][java.sql.DatabaseMetaData]HHH000262: Table not found: t_user
+[INFO][2017-06-28 13:11:06,255][java.sql.DatabaseMetaData]HHH000262: Table not found: t_user
+[INFO][2017-06-28 13:11:06,255][java.sql.DatabaseMetaData]HHH000262: Table not found: t_user
+[ERROR][2017-06-28 13:11:06,297][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000388: Unsuccessful: create table t_user (id varchar(255) not null auto_increment, birthday varchar(255), name varchar(255), password varchar(255), primary key (id))
+[ERROR][2017-06-28 13:11:06,297][org.hibernate.tool.hbm2ddl.SchemaUpdate]Incorrect column specifier for column 'id'
+[INFO][2017-06-28 13:11:06,297][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[WARN][2017-06-28 13:11:12,831][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]SQL Error: 1146, SQLState: 42S02
+[ERROR][2017-06-28 13:11:12,831][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]Table 'hemscommunity.t_user' doesn't exist
+[INFO][2017-06-28 13:12:21,417][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2017-06-28 13:12:27,472][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:12:27,505][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:12:27,599][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:12:27,604][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:12:27,606][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:12:27,607][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:12:27,945][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:12:28,027][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-06-28 13:12:28,030][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2017-06-28 13:12:28,175][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-06-28 13:12:28,175][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-06-28 13:12:28,179][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-06-28 13:12:28,190][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: HemsCommunity.t_user
+[INFO][2017-06-28 13:12:28,190][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id]
+[INFO][2017-06-28 13:12:28,191][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2017-06-28 13:12:28,191][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: []
+[INFO][2017-06-28 13:12:28,292][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2017-06-28 13:21:43,458][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2017-06-28 13:22:05,286][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:22:05,319][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:22:05,412][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:22:05,416][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:22:05,418][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:22:05,433][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:22:05,775][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:22:05,853][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-06-28 13:22:05,856][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2017-06-28 13:22:05,965][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-06-28 13:22:05,965][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-06-28 13:22:05,967][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-06-28 13:22:05,983][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: HemsCommunity.t_user
+[INFO][2017-06-28 13:22:05,984][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [birthday, password, name, id]
+[INFO][2017-06-28 13:22:05,984][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2017-06-28 13:22:05,984][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: []
+[INFO][2017-06-28 13:22:05,984][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2017-06-28 13:23:44,970][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2017-06-28 13:24:00,193][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:24:00,226][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:24:00,322][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:24:00,326][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:24:00,327][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:24:00,328][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:24:00,664][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:24:00,748][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-06-28 13:24:00,751][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[WARN][2017-06-28 13:24:00,940][org.hibernate.id.UUIDHexGenerator]HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[INFO][2017-06-28 13:24:01,050][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-06-28 13:24:01,050][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-06-28 13:24:01,053][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-06-28 13:24:01,068][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: HemsCommunity.t_user
+[INFO][2017-06-28 13:24:01,069][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [birthday, password, name, id]
+[INFO][2017-06-28 13:24:01,069][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2017-06-28 13:24:01,069][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: []
+[INFO][2017-06-28 13:24:01,070][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[ERROR][2017-06-28 13:27:19,073][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:27:19,109][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:27:19,215][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:27:19,219][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:27:19,220][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:27:19,221][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:27:19,586][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:27:19,664][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-06-28 13:27:19,668][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[WARN][2017-06-28 13:27:19,887][org.hibernate.id.UUIDHexGenerator]HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[INFO][2017-06-28 13:27:19,985][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-06-28 13:27:19,985][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-06-28 13:27:19,990][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-06-28 13:27:20,008][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: HemsCommunity.t_user
+[INFO][2017-06-28 13:27:20,008][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [birthday, password, name, id]
+[INFO][2017-06-28 13:27:20,008][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2017-06-28 13:27:20,009][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: []
+[INFO][2017-06-28 13:27:20,009][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2017-06-28 13:27:23,183][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2017-06-28 13:27:37,598][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:27:37,636][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:27:37,741][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:27:37,745][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:27:37,747][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:27:37,748][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:27:38,088][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:27:38,162][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-06-28 13:27:38,165][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[WARN][2017-06-28 13:27:38,188][org.hibernate.id.UUIDHexGenerator]HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[INFO][2017-06-28 13:27:38,284][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-06-28 13:27:38,284][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-06-28 13:27:38,287][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-06-28 13:27:38,298][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: HemsCommunity.t_user
+[INFO][2017-06-28 13:27:38,299][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [birthday, password, name, id]
+[INFO][2017-06-28 13:27:38,299][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2017-06-28 13:27:38,299][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: []
+[INFO][2017-06-28 13:27:38,300][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2017-06-28 13:30:55,803][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2017-06-28 13:31:02,788][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:31:02,823][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:31:02,916][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:31:02,921][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:31:02,923][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:31:02,925][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:31:03,269][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:31:03,349][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-06-28 13:31:03,352][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[WARN][2017-06-28 13:31:03,580][org.hibernate.id.UUIDHexGenerator]HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[INFO][2017-06-28 13:31:03,668][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-06-28 13:31:03,668][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-06-28 13:31:03,671][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-06-28 13:31:03,683][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: HemsCommunity.t_user
+[INFO][2017-06-28 13:31:03,683][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [birthday, password, name, id]
+[INFO][2017-06-28 13:31:03,683][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2017-06-28 13:31:03,683][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: []
+[INFO][2017-06-28 13:31:03,683][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2017-06-28 13:31:46,043][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2017-06-28 13:31:54,086][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:31:54,126][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:31:54,230][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:31:54,235][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:31:54,237][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:31:54,238][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:31:54,626][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:31:54,717][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-06-28 13:31:54,720][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[WARN][2017-06-28 13:31:54,741][org.hibernate.id.UUIDHexGenerator]HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[INFO][2017-06-28 13:31:54,828][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-06-28 13:31:54,829][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-06-28 13:31:54,832][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-06-28 13:31:54,843][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: HemsCommunity.t_user
+[INFO][2017-06-28 13:31:54,843][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id]
+[INFO][2017-06-28 13:31:54,843][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2017-06-28 13:31:54,843][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: []
+[INFO][2017-06-28 13:31:54,947][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2017-06-28 13:32:48,659][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2017-06-28 13:33:28,041][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:33:28,080][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:33:28,206][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:33:28,212][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:33:28,214][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:33:28,215][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:33:28,700][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:33:28,797][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-06-28 13:33:28,801][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[WARN][2017-06-28 13:33:28,827][org.hibernate.id.UUIDHexGenerator]HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[INFO][2017-06-28 13:33:28,945][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-06-28 13:33:28,945][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-06-28 13:33:28,948][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-06-28 13:33:28,961][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: HemsCommunity.t_user
+[INFO][2017-06-28 13:33:28,961][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [asd]
+[INFO][2017-06-28 13:33:28,961][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2017-06-28 13:33:28,961][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: []
+[INFO][2017-06-28 13:33:29,090][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2017-06-28 13:38:00,727][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[ERROR][2017-06-28 13:38:08,093][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2017-06-28 13:38:08,131][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-06-28 13:38:08,238][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[INFO][2017-06-28 13:38:08,243][org.hibernate.Version]HHH000412: Hibernate Core {4.2.5.Final}
+[INFO][2017-06-28 13:38:08,245][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2017-06-28 13:38:08,247][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2017-06-28 13:38:08,610][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[INFO][2017-06-28 13:38:08,721][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2017-06-28 13:38:08,727][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2017-06-28 13:38:08,877][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2017-06-28 13:38:08,877][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2017-06-28 13:38:08,880][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2017-06-28 13:38:08,893][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: HemsCommunity.t_user
+[INFO][2017-06-28 13:38:08,893][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [birthday, password, name, id]
+[INFO][2017-06-28 13:38:08,893][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2017-06-28 13:38:08,894][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2017-06-28 13:38:08,894][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete

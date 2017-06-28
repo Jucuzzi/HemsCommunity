@@ -7,6 +7,18 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>HemsCommunity Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+        <springframework.version>4.3.8.RELEASE</springframework.version>
+        <hibernate.version>4.3.6.Final</hibernate.version>
+        <mysql.connector.version>5.1.31</mysql.connector.version>
+        <joda-time.version>2.3</joda-time.version>
+        <testng.version>6.9.4</testng.version>
+        <mockito.version>1.10.19</mockito.version>
+        <h2.version>1.4.187</h2.version>
+        <dbunit.version>2.2</dbunit.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>     
+    </properties>
+    
   <dependencies><!-- 这个元素描述了所有与当前项目相关的依赖 -->  
         <!-- junit -->  
         <dependency>  
@@ -112,49 +124,49 @@
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-webmvc</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>${springframework.version}</version>  
         </dependency>  
           
         <!-- spring3 -->  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-core</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>${springframework.version}</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-context</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>${springframework.version}</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-jdbc</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>${springframework.version}</version>  
         </dependency>       
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-beans</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>${springframework.version}</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-web</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>${springframework.version}</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-expression</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>${springframework.version}</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-orm</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>${springframework.version}</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-test</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>${springframework.version}</version>  
         </dependency>  
           
     </dependencies> 

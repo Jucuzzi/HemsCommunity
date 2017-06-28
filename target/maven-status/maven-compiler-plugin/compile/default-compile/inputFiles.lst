@@ -1,0 +1,10 @@
+/Users/Jucuzzi/Documents/workspace/HemsCommunity/src/main/java/com/telek/service/IBaseService.java
+/Users/Jucuzzi/Documents/workspace/HemsCommunity/src/main/java/com/telek/model/BaseEntity.java
+/Users/Jucuzzi/Documents/workspace/HemsCommunity/src/main/java/com/telek/dao/BaseDaoImpl.java
+/Users/Jucuzzi/Documents/workspace/HemsCommunity/src/main/java/com/telek/dao/IBaseDao.java
+/Users/Jucuzzi/Documents/workspace/HemsCommunity/src/main/java/com/telek/dao/UserDaoImpl.java
+/Users/Jucuzzi/Documents/workspace/HemsCommunity/src/main/java/com/telek/service/UserServiceImpl.java
+/Users/Jucuzzi/Documents/workspace/HemsCommunity/src/main/java/com/telek/service/IUserService.java
+/Users/Jucuzzi/Documents/workspace/HemsCommunity/src/main/java/com/telek/service/BaseServiceImpl.java
+/Users/Jucuzzi/Documents/workspace/HemsCommunity/src/main/java/com/telek/model/UserEntity.java
+/Users/Jucuzzi/Documents/workspace/HemsCommunity/src/main/java/com/telek/controller/UserController.java
