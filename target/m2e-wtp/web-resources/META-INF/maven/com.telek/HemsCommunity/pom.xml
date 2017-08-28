@@ -167,7 +167,26 @@
             <groupId>org.springframework</groupId>  
             <artifactId>spring-test</artifactId>  
             <version>${springframework.version}</version>  
-        </dependency>  
+        </dependency> 
+        
+        <dependency>
+    		<groupId>net.sf.json-lib</groupId>
+    		<artifactId>json-lib</artifactId>
+    		<version>2.4</version>
+    		<classifier>jdk15</classifier>
+		</dependency> 
+		
+		<!-- HTTP -->
+		<dependency>
+			<groupId>org.apache</groupId>
+			<artifactId>httpcore</artifactId>
+			<version>4.2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.2.5</version>
+		</dependency>
           
     </dependencies> 
   <build>

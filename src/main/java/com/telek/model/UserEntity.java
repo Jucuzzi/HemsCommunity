@@ -7,20 +7,26 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import net.sf.json.JSONObject;
+
+
 
 @Entity
 @Table(name="t_user")
-public class UserEntity  {
-	@Id  
+public class UserEntity extends BaseModel{
+	
+	@Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)  
     @Column(name = "id", nullable = false) 
 	public int id;
 	@Column(name = "name")
 	public String name;
-	@Column(name = "password")
-	public String password;
-	@Column(name = "birthday")
-	public String birthday;
+	@Column(name = "nickName")
+	public String nickName;
+	@Column(name = "userIconPath")
+	public String userIconPath;
+	@Column(name = "userType")
+	public String userType;
 	public int getId() {
 		return id;
 	}
@@ -33,30 +39,49 @@ public class UserEntity  {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getPassword() {
-		return password;
+	public String getNickName() {
+		return nickName;
 	}
-	public void setPassword(String password) {
-		this.password = password;
+	public void setNickName(String nickName) {
+		this.nickName = nickName;
 	}
-	public String getBirthday() {
-		return birthday;
+	public String getUserIconPath() {
+		return userIconPath;
 	}
-	public void setBirthday(String birthday) {
-		this.birthday = birthday;
+	public void setUserIconPath(String userIconPath) {
+		this.userIconPath = userIconPath;
 	}
-	public UserEntity(String name, String password, String birthday) {
-		super();
-		this.name = name;
-		this.password = password;
-		this.birthday = birthday;
+	public String getUserType() {
+		return userType;
+	}
+	public void setUserType(String userType) {
+		this.userType = userType;
 	}
 	public UserEntity() {
 		super();
 	}
 	@Override
 	public String toString() {
-		return "UserEntity [name=" + name + ", password=" + password + ", birthday=" + birthday + "]";
+		return "UserEntity [id=" + id + ", name=" + name + ", nickName=" + nickName
+				+ ", userIconPath=" + userIconPath + ", userType=" + userType + "]";
 	}
+	public UserEntity(String name, String nickName, String userIconPath, String userType) {
+		super();
+		this.name = name;
+		this.nickName = nickName;
+		this.userIconPath = userIconPath;
+		this.userType = userType;
+	}
+	
+	public JSONObject getJsonObj() {
+		JSONObject obj = new JSONObject();
+		obj.put("id", id);
+		obj.put("name", name);
+		obj.put("nickName", nickName);
+		obj.put("userIconPath", userIconPath);
+		obj.put("userType", userType);
+		return obj;
+	}
+	
 	
 }

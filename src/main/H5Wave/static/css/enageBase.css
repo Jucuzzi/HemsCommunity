@@ -1,0 +1,158 @@
+.backgroundTitleView{
+	width: 100%;
+	height: 650px;
+	background: url(../img/freshHome.png) center;
+	background-size: 100% 100%;
+
+}
+.strategy{
+	width: 100px;
+	height: 100px;
+	padding-left: 20px;
+}
+#strategyButton{
+	width: 100px;
+	height: 100px;
+	margin-top: 530px;
+}
+.redMoney{
+	width: 80px;
+	height: 100px;
+	padding-left: 100px;
+}
+
+#redPacketButton{
+	width: 85px;
+	height: 100px;
+	padding-left: 50px;
+	margin-top: 425px;
+}
+
+.userInfoTitle{
+	text-align: right;
+	width: 50%;
+	padding-left: 50%;
+}
+#userInfoImg{
+	margin-bottom: -400px;
+	opacity: 0.7;
+	position:relative;z-index:3;
+}
+
+.userShow{
+	padding-right: 80px;
+	margin-top: 331px;
+	position:relative;z-index:4;
+}
+#userShowImg{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+
+.infoName{
+	color: white;
+	font:"微软雅黑";
+	font-size: 17px;
+	padding-right: 6px;
+	margin-top: -55px;
+	position:relative;z-index:5;
+}
+.infoDetail{
+	color: white;
+	font:"微软雅黑";
+	font-size: 17px;
+	padding-right: 35px;
+	margin-top: 0px;
+	position:relative;z-index:5;
+}
+.tableView-cell {
+ 	width: 100%;
+ 	height: 60px;
+    list-style-type: none;
+ }
+ 
+ .tableView-cell-frands{
+ 	width: 100%;
+ 	height: 90px;
+    list-style-type: none;
+        /*设置下边框样式*/
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #D3D3D3;
+ }
+ 
+ .title{
+ 	text-align: left;
+ 	font-size: 32px;
+ 	padding-top: 7px;
+ }
+ .sperateView{
+    width: 100%;
+   height: 1px;
+   background-color: #D3D3D3;
+}
+.name{
+	text-align: left;
+ 	font-size: 28px;
+ 	padding-top: 4px;
+}
+.time{
+	text-align: right;
+	margin-top: -30px;
+	font-size: 24px;
+	color: darkgrey;
+}
+
+.findMore{
+	width: 100%;
+	height: 60px;
+	font-size: 29px;
+	text-align: center;
+	padding-top: 12px;
+	color: darkgray;
+}
+.sperateViewLarge{
+	width: 100%;
+   	height: 20px;
+   	background-color: #D3D3D3;
+}
+
+
+.selfTitleImage{
+	width: 100px;
+	height: 100px;
+	margin-top: 18px;
+}
+#theShow{
+	width: 70px;
+	height: 70px;
+}
+.selfName{
+	font: "微软雅黑";
+	font-size: 26px;
+	padding-left: 12%;
+	margin-top: -100px;
+}
+
+.numOfElec{
+	font: "微软雅黑";
+	font-size: 20px;
+	color: darkgray;
+	padding-left: 12%;
+	margin-top: 10px;
+}
+
+.canGet{
+	width: 50px;
+	height: 50px;
+	padding-left: 90%;
+	margin-top: -60px;
+	
+}
+
+#haveEnage{
+	width: 50px;
+	height: 50px;
+}
+

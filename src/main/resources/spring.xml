@@ -10,6 +10,6 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd
     <context:property-placeholder location="classpath:config.properties" />  
   
     <!-- 自动扫描dao和service包(自动注入) -->  
-    <context:component-scan base-package="com.telek.dao,com.telek.service" />  
+    <context:component-scan base-package="com.telek.dao,com.telek.daoImpl,com.telek.service,com.telek.cache.model,com.telek.cache.service" />  
   
 </beans> 

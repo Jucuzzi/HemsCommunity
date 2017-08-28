@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:16:15 +0800] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:16:15 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:16:21 +0800] "GET / HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:16:23 +0800] "GET /HemsCommunity/showView HTTP/1.1" 200 52 http-bio-8080-exec-4 291
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:16:23 +0800] "GET /HemsCommunity/showView HTTP/1.1" 200 52 http-bio-8080-exec-6 21
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:16:44 +0800] "GET /HemsCommunity/showView HTTP/1.1" 200 52 http-bio-8080-exec-7 13
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:22:53 +0800] "GET /HemsCommunity/showView HTTP/1.1" 500 5498 http-bio-8080-exec-1 243
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:30:46 +0800] "GET /HemsCommunity/showView HTTP/1.1" 200 52 http-bio-8080-exec-1 342
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:37:05 +0800] "GET /HemsCommunity/showView HTTP/1.1" 200 52 http-bio-8080-exec-1 267
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:38:42 +0800] "GET /HemsCommunity/showView HTTP/1.1" 200 52 http-bio-8080-exec-1 342
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:38:54 +0800] "GET /HemsCommunity/showView HTTP/1.1" 200 52 http-bio-8080-exec-2 30
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:39:24 +0800] "GET /HemsCommunity/showView HTTP/1.1" 200 52 http-bio-8080-exec-1 288
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:57:26 +0800] "GET /HemsCommunity/showView HTTP/1.1" 500 14680 http-bio-8080-exec-1 253
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:16:58:13 +0800] "GET /HemsCommunity/showView HTTP/1.1" 500 14680 http-bio-8080-exec-1 282
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:17:00:04 +0800] "GET /HemsCommunity/showView HTTP/1.1" 500 14680 http-bio-8080-exec-1 319
+0:0:0:0:0:0:0:1 - - [06/Jul/2017:17:02:43 +0800] "GET /HemsCommunity/showView HTTP/1.1" 500 14675 http-bio-8080-exec-1 299

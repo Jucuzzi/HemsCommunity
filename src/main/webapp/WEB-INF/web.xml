@@ -71,13 +71,28 @@
 		<url-pattern>/*</url-pattern>
 	</filter-mapping> -->
 	
+	<filter>
+		<filter-name>login</filter-name>
+		<filter-class>com.telek.filter.LoginFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>login</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
 	
+	<!-- 系统启动加载 -->
+	<servlet>
+		<servlet-name>init</servlet-name>
+		<servlet-class>com.telek.listener.SystemStartListener</servlet-class>
+		<load-on-startup>3</load-on-startup>
+	</servlet>
 
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 
 	<welcome-file-list>
-		<welcome-file>/index.jsp</welcome-file>
+		<welcome-file>/dist/index.html</welcome-file>
 	</welcome-file-list>
 </web-app>

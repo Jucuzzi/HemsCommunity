@@ -1,0 +1,669 @@
+/*公用*/
+.unit_kwh{
+	font-size: 15px;
+	margin-left: 2%;
+}
+
+/*第一页*/
+.one_page{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/1.png);
+	background-size: cover;
+	background-size: 100% 100%;
+}
+.one_year_month_div{
+	display: flex;
+	flex-direction: column;
+	align-items:flex-end;
+	margin-top:30.5%;
+	width: 59.5%;
+	font-size:0;
+}
+.one_year{
+	font-size: 31px;
+}
+.one_month{
+	font-size: 30px;
+	line-height:27px;
+}
+/*第二页*/
+.two_page{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/2.png);
+	background-size: cover;
+	background-size: 100% 100%;
+}
+.two_use_electric_div{
+	display: flex;
+	flex-direction: column;
+	align-items:flex-start;
+	margin-top:30.2%;
+	margin-left:42%;
+	height: 20%;
+	font-size:0;
+}
+.two_time_div{
+	background-image: url(../img/blue_line_frame.png);
+	background-size: 100% 100%;
+	padding: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;	
+}
+.two_time{
+	font-size: 13px;
+	white-space:nowrap;
+	display: inline-block;
+}
+.two_use_electric_text{
+	font-size: 23px;
+	margin-top:1%;
+}
+.two_electric_num_div{
+	display: flex;
+	flex-direction: row;
+	align-items:flex-end;
+	font-size:0;
+}
+.two_use_electric_num{
+	font-size: 33px;
+}
+.two_unit_kwh{
+	font-size: 15px;
+	margin-left: 2%;
+}
+
+.two_explain_div{
+	display: flex;
+	flex-direction: row;
+	margin-top:69%;
+	font-size:0;
+	background-image: url(../img/bottom.png);
+	background-size: 100% 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.two_explain_one_outer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.two_explain_one{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.two_explain_one_one{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	align-items:flex-end;
+}
+.two_exceed{
+	font-size: 15px;
+	white-space:nowrap;
+}
+.two_percentage{
+	font-size: 24px;
+	margin-left: 2%;
+}
+.two_buddy{
+	font-size: 15px;
+}
+
+
+.two_explain_two_outer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.two_explain_two{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.two_explain_two_one{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	align-items:flex-end;
+}
+.two_multi_use{
+	font-size: 15px;
+}
+.two_multi_use_num{
+	font-size: 24px;
+}
+
+
+
+/*第三页*/
+.three_page{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/3.png);
+	background-size: cover;
+	background-size: 100% 100%;
+}
+.three_appliance_div{
+	display: flex;
+	flex-direction: column;
+	align-items:flex-start;
+	margin-top:15.6%;
+	margin-left:34.9%;
+	height: 20%;
+	font-size:0;
+}
+.three_time_div{
+	background-image: url(../img/blue_line_frame.png);
+	background-size: 100% 100%;
+	padding: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;	
+}
+.three_time{
+	font-size: 13px;
+	display: inline-block;
+}
+.three_appliance_text{
+	font-size: 23px;
+}
+.three_appliance_type_div{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+.three_appliance_type{
+	font-size: 33px;
+}
+
+.three_explain_div{
+	display: flex;
+	flex-direction: row;
+	margin-top:4.5%;
+	font-size:0;
+	background-image: url(../img/bottom.png);
+	background-size: 100% 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.three_explain_one_outer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.three_explain_one{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	
+}
+.three_explain_one_one{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	align-items:flex-end;
+}
+.three_total_use{
+	font-size: 15px;
+}
+.three_total_use_num{
+	font-size: 24px;
+}
+
+
+.three_explain_two_outer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.three_explain_two{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.three_explain_two_one{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	align-items:flex-end;
+}
+.three_multi_use{
+	font-size: 15px;
+}
+.three_multi_use_num{
+	font-size: 24px;
+}
+
+
+/*第四页*/
+.four_page{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/4.png);
+	background-size: cover;
+	background-size: 100% 100%;
+}
+
+.four_intelligent_div{
+	display: flex;
+	flex-direction: column;
+	align-items:flex-start;
+	margin-top:27.5%;
+	margin-left:34.6%;
+	font-size:0;
+	height: 20%;
+
+}
+.four_intelligent_text_div{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+.four_time_div{
+	background-image: url(../img/blue_line_frame.png);
+	background-size: 100% 100%;
+	padding: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;	
+}
+.four_time{
+	font-size: 13px;
+	display: inline-block;
+}
+.four_intelligent_text{
+	font-size: 23px;
+}
+.four_intelligent_num{
+	font-size: 33px;
+}
+.four_frequency{
+	font-size: 15px;
+}
+
+.four_explain_div{
+	display: flex;
+	flex-direction: row;
+	margin-top:71.5%;
+	font-size:0;
+	background-image: url(../img/bottom.png);
+	background-size: 100% 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.four_explain_one_outer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	background-color:#2ebfff;
+}
+.four_explain_one{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.four_explain_one_one{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	align-items:flex-end;
+}
+.four_intelligent_text_one{
+	font-size: 15px;
+}
+.four_use_num{
+	font-size: 24px;
+}
+.four_frequency{
+	font-size: 15px;
+}
+.four_explain_two_outer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.four_explain_two{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.four_explain_two_one{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	align-items:flex-end;
+}
+.four_intelligent_text_two{
+	font-size: 15px;
+}
+.four_use_num_two{
+	font-size: 24px;
+}
+
+.four_explain_three_outer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color:#2ebfff;
+	padding-top: 2.7%;
+	padding-bottom: 2.7%;
+}
+.four_intelligent_text_three{
+	font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+/*第五页*/
+.five_page{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/5.png);
+	background-size: cover;
+	background-size: 100% 100%;
+}
+.five_warning_div{
+	display: flex;
+	flex-direction: column;
+	align-items:flex-start;
+	margin-top:30%;
+	margin-left:34.5%;
+	font-size:0;
+	height: 20%;
+
+}
+.five_warning_text_div{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+.five_time_div{
+	background-image: url(../img/blue_line_frame.png);
+	background-size: 100% 100%;
+	padding: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;	
+}
+.five_time{
+	font-size: 13px;
+	display: inline-block;
+}
+.five_warning_text{
+	font-size: 23px;
+}
+.five_warning_num{
+	font-size: 33px;
+}
+.five_frequency{
+	font-size: 15px;
+}
+
+
+
+.five_explain_div{
+	display: flex;
+	flex-direction: row;
+	margin-top:69.2%;
+	font-size:0;
+	background-image: url(../img/bottom.png);
+	background-size: 100% 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.five_explain_one{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.five_warning_time_text{
+	font-size: 15px;
+}
+.five_warning_time{
+	font-size: 24px;
+}
+.five_explain_two{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.five_explain_two_one{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+.five_warning_num_text{
+	font-size: 15px;
+}
+.five_time_warning_num{
+	font-size: 24px;
+	margin-right: 2%;
+}
+.five_explain_three_outer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color:#2ebfff;
+	padding-top: 2.7%;
+	padding-bottom: 2.7%;
+}
+.five_intelligent_text_three{
+	font-size: 22px;
+}
+
+
+/*第六页*/
+.six_page{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/6.png);
+	background-size: cover;
+	background-size: 100% 100%;
+}
+
+.six_fire_div{
+	display: flex;
+	flex-direction: column;
+	align-items:flex-start;
+	margin-top:30%;
+	margin-left:34.5%;
+	font-size:0;
+	height: 20%;
+}
+.six_fire_text_div{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+.six_time_div{
+	background-image: url(../img/blue_line_frame.png);
+	background-size: 100% 100%;
+	padding: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;	
+}
+.six_time{
+	font-size: 13px;
+	display: inline-block;
+}
+.six_fire_text{
+	font-size: 23px;
+}
+.six_fire_num{
+	font-size: 33px;
+}
+.six_frequency{
+	font-size: 15px;
+}
+
+.six_explain_div{
+	display: flex;
+	flex-direction: row;
+	margin-top:69.3%;
+	font-size:0;
+	background-image: url(../img/bottom.png);
+	background-size: 100% 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.six_explain_one{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.six_fire_time_text{
+	font-size: 15px;
+}
+.five_fire_time{
+	font-size: 24px;
+}
+.six_explain_two{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+.six_explain_two_one{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+.six_fire_time{
+	font-size: 24px;
+	line-height:25px;
+}
+.six_fire_num_text{
+	font-size: 15px;
+}
+.six_time_fire_num{
+	font-size: 24px;
+	margin-right: 2%;
+}
+.six_explain_three_outer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color:#2ebfff;
+	padding-top: 2.7%;
+	padding-bottom: 2.7%;
+}
+.six_intelligent_text_three{
+	font-size: 22px;
+}
+
+/*第七页*/
+.seven_page{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/7.png);
+	background-size: cover;
+}
+
+.seven_conclusion_div{
+	width: 90%;
+	height:90%;
+	margin-top:4%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color: #006596;
+	display: flex;
+	flex-direction: column;
+}
+.seven_name_div{
+	width: 100%;
+	height:20%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:flex-start;
+	font-size: 0px;
+	margin-left: 5%
+	
+}
+.seven_name_text{
+	color: #00abfd;
+	font-size: 64px;
+}
+.seven_head_icon_div{
+	width: 100%;
+	height:65%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	background-size: cover;
+}
+.seven_effect_div{
+	width: 100%;
+	height:16%;
+	background-color: #ffffff;
+	opacity:0.7;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.seven_effect_text{
+	color: #006596;
+	font-size: 21px;
+	margin-left: 6%;
+	margin-right: 10%
+}
+.seven_effect_num{
+	color: #006596;
+	font-size: 20px;
+}
+.seven_bottom_div_outer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height:15%;
+}
+.seven_bottom_div{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content:center;
+	margin-left: 6%;
+	font-size: 0px;
+}
+.seven_use_total_div{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	font-size: 0px;
+}
+.seven_use_total_text{
+	color: #ffffff;
+	font-size: 20px;
+	white-space:nowrap;
+	margin-right: 18%
+}
+.seven_use_total{
+	color: #ffffff;
+	font-size: 20px;
+
+}
+.seven_slogan_text{
+	color: #ffffff;
+	font-size: 22.5px;
+}
+.myself-col-xs-5 {
+	width: 20%
+}

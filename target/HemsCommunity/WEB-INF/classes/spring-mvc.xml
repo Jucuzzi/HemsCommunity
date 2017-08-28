@@ -18,4 +18,5 @@
         <property name="prefix" value="/"></property>  
         <property name="suffix" value=".jsp"></property>  
     </bean>  
+    <mvc:resources mapping="/dist/**" location="/dist/"/>
 </beans>

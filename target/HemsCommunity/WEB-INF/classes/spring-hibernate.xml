@@ -13,9 +13,8 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
       
       
     <!-- 配置数据源 -->  
-    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" init-method="init" destroy-method="close">  
-    <!-- 数据库的驱动 -->  
-        <property name="driverClassName" value="${driverClassName}"/>
+    <bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">  
+    	<property name="driverClassName" value = "${jdbc_driverClassName}" />
         <property name="url" value="${jdbc_url}" />  
         <property name="username" value="${jdbc_username}" />  
         <property name="password" value="${jdbc_password}" />  
@@ -74,17 +73,25 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
             </list>  
         </property>  
     </bean>  
+    
+	<bean id="UserDaoImpl" class="com.telek.daoImpl.UserDaoImpl">
+        <!-- 把sessionFactory 注入给UserDaoImpl -->
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
   
     <!-- 配置事务管理器 -->  
     <bean name="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">  
         <property name="sessionFactory" ref="sessionFactory"></property>  
     </bean>  
+    
+    <!-- 定义 Autowired  自动注入 bean -->
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/> 
   
     <!-- 注解方式配置事物 -->  
-    <!-- <tx:annotation-driven transaction-manager="transactionManager" /> -->  
+    <tx:annotation-driven transaction-manager="transactionManager" />  
   
     <!-- 拦截器方式配置事物 -->  
-    <tx:advice id="transactionAdvice" transaction-manager="transactionManager">  
+    <!-- <tx:advice id="transactionAdvice" transaction-manager="transactionManager">  
         <tx:attributes>  
             <tx:method name="add*" />  
             <tx:method name="save*" />  
@@ -104,11 +111,11 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
   
             <tx:method name="*" propagation="SUPPORTS" />  
         </tx:attributes>  
-    </tx:advice>  
-    <aop:config>  
+    </tx:advice> -->  
+    <!-- <aop:config>  
         <aop:pointcut id="transactionPointcut" expression="execution(* com.jesus.sshframework.service..*Impl.*(..))" />  
         <aop:advisor pointcut-ref="transactionPointcut" advice-ref="transactionAdvice" />  
-    </aop:config>  
+    </aop:config>   -->
   
   
 </beans>

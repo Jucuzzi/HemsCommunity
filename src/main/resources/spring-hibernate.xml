@@ -74,7 +74,7 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
         </property>  
     </bean>  
     
-	<bean id="UserDaoImpl" class="com.telek.dao.UserDaoImpl">
+	<bean id="UserDaoImpl" class="com.telek.daoImpl.UserDaoImpl">
         <!-- 把sessionFactory 注入给UserDaoImpl -->
         <property name="sessionFactory" ref="sessionFactory" />
     </bean>
@@ -83,6 +83,9 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
     <bean name="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">  
         <property name="sessionFactory" ref="sessionFactory"></property>  
     </bean>  
+    
+    <!-- 定义 Autowired  自动注入 bean -->
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/> 
   
     <!-- 注解方式配置事物 -->  
     <tx:annotation-driven transaction-manager="transactionManager" />  
